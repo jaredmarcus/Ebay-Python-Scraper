@@ -1,4 +1,3 @@
-# Ebay-Python-Scraper
 <!--
 *** Thanks for checking out the Best-README-Template. If you have a suggestion
 *** that would make this better, please fork the repo and create a pull request
@@ -33,23 +32,23 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href="https://github.com/github_username/repo_name">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+  <a href="https://github.com/jaredmarcus/Ebay-Python-Scraper">
+    <img src="logo.png" alt="Logo" width="80" height="80">
   </a>
 
-  <h3 align="center">project_title</h3>
+  <h3 align="center">eBay Scraper</h3>
 
   <p align="center">
-    project_description
+    Python eBay scaper to pull relevant information from a listing. 
     <br />
-    <a href="https://github.com/github_username/repo_name"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/jaredmarcus/Ebay-Python-Scraper"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/github_username/repo_name">View Demo</a>
+    <a href="https://github.com/jaredmarcus/Ebay-Python-Scraper">View Demo</a>
     ·
-    <a href="https://github.com/github_username/repo_name/issues">Report Bug</a>
+    <a href="https://github.com/jaredmarcus/Ebay-Python-Scraper/issues">Report Bug</a>
     ·
-    <a href="https://github.com/github_username/repo_name/issues">Request Feature</a>
+    <a href="https://github.com/jaredmarcus/Ebay-Python-Scraper/issues">Request Feature</a>
   </p>
 </p>
 
@@ -86,20 +85,11 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
-
-Here's a blank template to get started:
-**To avoid retyping too much info. Do a search and replace with your text editor for the following:**
-`github_username`, `repo_name`, `twitter_handle`, `email`, `project_title`, `project_description`
-
+The main purpose of the project was to create a method of automating a post on eBay without using the API, but then came to the issue of getting captchas while reaching the login page. This is where I found that this method wouldn't be viable, but other developers, or people learning scraping might find this work of use. 
 
 ### Built With
 
-* []()
-* []()
-* []()
-
-
+* [Python 3.9.6](https://www.python.org/downloads/release/python-396/)
 
 <!-- GETTING STARTED -->
 ## Getting Started
@@ -108,21 +98,21 @@ To get a local copy up and running follow these simple steps.
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
-* npm
+Make sure pip packages are up to date
+* pip
   ```sh
-  npm install npm@latest -g
+  pip install --upgrade pip
   ```
 
 ### Installation
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/github_username/repo_name.git
+   git clone https://github.com/jaredmarcus/Ebay-Python-Scraper.git
    ```
-2. Install NPM packages
+2. Install requirements.txt
    ```sh
-   npm install
+   pip install requirements.txt
    ```
 
 
@@ -130,16 +120,12 @@ This is an example of how to list things you need to use the software and how to
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
-
-
+The script works upon launch by asking for a link, you would just paste any eBay listing link (don't forget the www. part of the link). From there the script will open the link, and download relevant information. Title, Pictures, the Description, as well as the Price. 
 
 <!-- ROADMAP -->
 ## Roadmap
-
-See the [open issues](https://github.com/github_username/repo_name/issues) for a list of proposed features (and known issues).
+Until I figure out a method on how to get past the captchas at the login screen, and automate a listing, since eBay has some logic developed to help sellers list their items (e.g. category for item derived from listings with a similar name) there won't be further updates for this repo. Feel free to fork and branch out to create further development of this project!
+See the [open issues](https://github.com/jaredmarcus/Ebay-Python-Scraper/issues) for a list of proposed features (and known issues).
 
 
 
@@ -166,18 +152,17 @@ Distributed under the MIT License. See `LICENSE` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - email
+Jared Macias - [@twitter_handle](https://twitter.com/Frostyyy210) - jaredmarcus@icloud.com
 
-Project Link: [https://github.com/github_username/repo_name](https://github.com/github_username/repo_name)
+Project Link: [https://github.com/jaredmarcus/Ebay-Python-Scraper](https://github.com/jaredmarcus/Ebay-Python-Scraper)
 
 
 
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
 
-* []()
-* []()
-* []()
+* [Stack Overflow explaining method to pull description for listing](https://stackoverflow.com/questions/63531321/is-it-possible-to-get-ebay-item-description-with-requests-and-beautifulsoup)
+
 
 
 
@@ -185,15 +170,15 @@ Project Link: [https://github.com/github_username/repo_name](https://github.com/
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/github_username/repo.svg?style=for-the-badge
-[contributors-url]: https://github.com/github_username/repo/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/github_username/repo.svg?style=for-the-badge
-[forks-url]: https://github.com/github_username/repo/network/members
-[stars-shield]: https://img.shields.io/github/stars/github_username/repo.svg?style=for-the-badge
-[stars-url]: https://github.com/github_username/repo/stargazers
-[issues-shield]: https://img.shields.io/github/issues/github_username/repo.svg?style=for-the-badge
-[issues-url]: https://github.com/github_username/repo/issues
-[license-shield]: https://img.shields.io/github/license/github_username/repo.svg?style=for-the-badge
-[license-url]: https://github.com/github_username/repo/blob/master/LICENSE.txt
+[contributors-shield]: https://img.shields.io/github/contributors/jaredmarcus/repo.svg?style=for-the-badge
+[contributors-url]: https://github.com/jaredmarcus/repo/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/jaredmarcus/repo.svg?style=for-the-badge
+[forks-url]: https://github.com/jaredmarcus/repo/network/members
+[stars-shield]: https://img.shields.io/github/stars/jaredmarcus/repo.svg?style=for-the-badge
+[stars-url]: https://github.com/jaredmarcus/repo/stargazers
+[issues-shield]: https://img.shields.io/github/issues/jaredmarcus/repo.svg?style=for-the-badge
+[issues-url]: https://github.com/jaredmarcus/repo/issues
+[license-shield]: https://img.shields.io/github/license/jaredmarcus/repo.svg?style=for-the-badge
+[license-url]: https://github.com/jaredmarcus/repo/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/github_username
+[linkedin-url]: https://linkedin.com/in/jaredmarcus
