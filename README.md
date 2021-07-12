@@ -106,7 +106,7 @@ Make sure pip packages are up to date
 
 ### Installation
 
-1. Clone the repo
+1. Clone the repo & place on your desktop
    ```sh
    git clone https://github.com/jaredmarcus/Ebay-Python-Scraper.git
    ```
@@ -114,6 +114,7 @@ Make sure pip packages are up to date
    ```sh
    pip install requirements.txt
    ```
+3. Make Sure Repository Folder is placed on desktop or else the function won't run correctly (you'll have to edit some functions)
 
 
 
