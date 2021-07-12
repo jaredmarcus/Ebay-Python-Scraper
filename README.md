@@ -154,7 +154,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Jared Macias - [@twitter_handle](https://twitter.com/Frostyyy210) - jaredmarcus@icloud.com
+Jared Macias - [@Frostyyy210](https://twitter.com/Frostyyy210) - jaredmarcus@icloud.com
 
 Project Link: [https://github.com/jaredmarcus/Ebay-Python-Scraper](https://github.com/jaredmarcus/Ebay-Python-Scraper)
 
@@ -179,4 +179,4 @@ Project Link: [https://github.com/jaredmarcus/Ebay-Python-Scraper](https://githu
 [license-shield]: https://img.shields.io/github/license/jaredmarcus/Ebay-Python-Scraper.svg?style=for-the-badge
 [license-url]: https://github.com/jaredmarcus/Ebay-Python-Scraper/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/jaredmarcus
+[linkedin-url]: https://linkedin.com/in/jaredmarcusm
