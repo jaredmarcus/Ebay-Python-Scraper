@@ -165,10 +165,6 @@ Project Link: [https://github.com/jaredmarcus/Ebay-Python-Scraper](https://githu
 * [Stack Overflow explaining method to pull description for listing](https://stackoverflow.com/questions/63531321/is-it-possible-to-get-ebay-item-description-with-requests-and-beautifulsoup)
 
 
-
-
-
-
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [contributors-shield]: https://img.shields.io/github/contributors/jaredmarcus/repo.svg?style=for-the-badge
