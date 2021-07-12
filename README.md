@@ -115,6 +115,7 @@ Make sure pip packages are up to date
    pip install requirements.txt
    ```
 3. Make Sure Repository Folder is placed on desktop or else the function won't run correctly (you'll have to edit some functions)
+4. Also create a folder inside the project folder titled "pictures".
 
 
 
@@ -167,15 +168,15 @@ Project Link: [https://github.com/jaredmarcus/Ebay-Python-Scraper](https://githu
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/jaredmarcus/repo.svg?style=for-the-badge
-[contributors-url]: https://github.com/jaredmarcus/repo/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/jaredmarcus/repo.svg?style=for-the-badge
-[forks-url]: https://github.com/jaredmarcus/repo/network/members
-[stars-shield]: https://img.shields.io/github/stars/jaredmarcus/repo.svg?style=for-the-badge
-[stars-url]: https://github.com/jaredmarcus/repo/stargazers
-[issues-shield]: https://img.shields.io/github/issues/jaredmarcus/repo.svg?style=for-the-badge
-[issues-url]: https://github.com/jaredmarcus/repo/issues
-[license-shield]: https://img.shields.io/github/license/jaredmarcus/repo.svg?style=for-the-badge
-[license-url]: https://github.com/jaredmarcus/repo/blob/master/LICENSE.txt
+[contributors-shield]: https://img.shields.io/github/contributors/jaredmarcus/Ebay-Python-Scraper.svg?style=for-the-badge
+[contributors-url]: https://github.com/jaredmarcus/Ebay-Python-Scraper/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/jaredmarcus/Ebay-Python-Scraper.svg?style=for-the-badge
+[forks-url]: https://github.com/jaredmarcus/Ebay-Python-Scraper/network/members
+[stars-shield]: https://img.shields.io/github/stars/jaredmarcus/Ebay-Python-Scraper.svg?style=for-the-badge
+[stars-url]: https://github.com/jaredmarcus/Ebay-Python-Scraper/stargazers
+[issues-shield]: https://img.shields.io/github/issues/jaredmarcus/Ebay-Python-Scraper.svg?style=for-the-badge
+[issues-url]: https://github.com/jaredmarcus/Ebay-Python-Scraper/issues
+[license-shield]: https://img.shields.io/github/license/jaredmarcus/Ebay-Python-Scraper.svg?style=for-the-badge
+[license-url]: https://github.com/jaredmarcus/Ebay-Python-Scraper/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/jaredmarcus
